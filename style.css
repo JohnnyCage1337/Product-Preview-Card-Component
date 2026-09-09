@@ -1,0 +1,62 @@
+/* RESET DEFAULT BROWSER STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+/* LOAD FONTS FROM STATIC FILES */
+@font-face {
+  font-family: "Montserrat";
+  src: url(/static/fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url(static/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf)
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+/* CSS CUSTOM VARIABLES */
+
+:root {
+  /* COLORS */
+  --color-black: hsl(212, 21%, 14%);
+  --color-grey: hsl(228, 12%, 48%);
+  --color-cream: hsl(30, 38%, 92%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-green-500: hsl(158, 36%, 37%);
+  --color-green-700: hsl(158, 42%, 18%);
+
+  /* FONTS */
+  --text-present-1: 700 2rem/1 "Fraunces";
+  --text-present-2: 700 0.875rem/1.1 "Montserrat";
+  --text-present-3: 500 0.875rem/1.6 "Montserrat";
+  --text-present-4: 500 0.75rem/1.2 "Montserrat";
+  --text-present-4-letter-sp: 5px;
+  --text-present-5: 500 0.813rem/1.2 "Montserrat";
+
+  /* SPACING */
+  --sp-50: 0.25rem;
+  --sp-100: 0.5rem;
+  --sp-200: 1rem;
+  --sp-300: 1.5rem;
+  --sp-400: 2rem;
+  --sp-500: 2.5rem;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
