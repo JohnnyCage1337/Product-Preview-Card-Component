@@ -19,7 +19,7 @@ img {
 
 @font-face {
   font-family: "Fraunces";
-  src: url(static/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf)
+  src: url(/static/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf)
     format("truetype");
   font-weight: 100 900;
   font-style: normal;
@@ -56,7 +56,90 @@ img {
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
+  margin-top: 4rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-cream);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 80px;
+}
+
+.card__picture img {
+  max-width: 100%;
+  height: auto;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card {
+  width: 95%;
+  background-color: var(--color-white);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card__product-info {
+  padding: var(--sp-400);
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--sp-300);
+}
+
+.card__price-group {
+  display: flex;
+  column-gap: var(--sp-200);
+}
+
+.card__category {
+  font: var(--text-present-4);
+  letter-spacing: var(--text-present-4-letter-sp);
+  color: var(--color-grey);
+}
+
+.card__title {
+  font: var(--text-present-1);
+  color: var(--color-black);
+}
+
+.card__description {
+  font: var(--text-present-3);
+  color: var(--color-grey);
+}
+
+.card__price--new {
+  font: var(--text-present-1);
+  color: var(--color-green-500);
+}
+
+.card__price--old {
+  font: var(--text-present-5);
+  color: var(--color-grey);
+  align-self: center;
+}
+
+.card__button {
+  font: var(--text-present-2);
+  color: var(--color-white);
+  background-color: var(--color-green-500);
+  padding: var(--sp-200) var(--sp-400);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: centre;
+  column-gap: var(--sp-100);
 }
