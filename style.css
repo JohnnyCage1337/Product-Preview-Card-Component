@@ -194,7 +194,7 @@ main {
     cursor: pointer;
   }
 
-  .card__price-group {
+  .card__product-info > .card__price-group {
     margin-top: var(--sp-400);
   }
 
