@@ -11,7 +11,7 @@ img {
 /* LOAD FONTS FROM STATIC FILES */
 @font-face {
   font-family: "Montserrat";
-  src: url(/static/fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+  src: url("/static/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
     format("truetype");
   font-weight: 100 900;
   font-style: normal;
@@ -19,7 +19,7 @@ img {
 
 @font-face {
   font-family: "Fraunces";
-  src: url(/static/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf)
+  src: url("/static/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
     format("truetype");
   font-weight: 100 900;
   font-style: normal;
