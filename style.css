@@ -11,7 +11,7 @@ img {
 /* LOAD FONTS FROM STATIC FILES */
 @font-face {
   font-family: "Montserrat";
-  src: url("/static/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+  src: url("static/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
     format("truetype");
   font-weight: 100 900;
   font-style: normal;
@@ -19,7 +19,7 @@ img {
 
 @font-face {
   font-family: "Fraunces";
-  src: url("/static/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
+  src: url("static/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
     format("truetype");
   font-weight: 100 900;
   font-style: normal;
@@ -102,7 +102,10 @@ main {
   padding: var(--sp-400);
   display: flex;
   flex-direction: column;
-  row-gap: var(--sp-300);
+}
+
+.card__product-info > * + * {
+  margin-top: var(--sp-300);
 }
 
 .card__price-group {
@@ -147,7 +150,7 @@ main {
 
   display: flex;
   justify-content: center;
-  align-items: centre;
+  align-items: center;
   column-gap: var(--sp-100);
 }
 
@@ -171,21 +174,31 @@ main {
 
   .card {
     flex-direction: row;
-    width: 600px;
+    width: 37.5rem;
     max-width: none;
   }
 
   .card__picture img {
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
+    height: 100%;
   }
 
   .card__picture,
   .card__product-info {
     flex-basis: 50%;
   }
+
   .card__button:hover {
     background-color: var(--color-green-700);
     cursor: pointer;
+  }
+
+  .card__price-group {
+    margin-top: var(--sp-400);
+  }
+
+  .card__button {
+    margin-top: var(--sp-400);
   }
 }
