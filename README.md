@@ -82,7 +82,7 @@ In the future, I plan to focus on creating more complex layouts. I'm excited to 
 ### Useful resources
 
 - [W3Schools <picture> Tag](https://www.w3schools.com/Tags/tag_picture.asp) - This page was a great reference for understanding how the `<picture>` element works.
-- [W3Schools <s> Tag](https://www.w3schools.com/tags/tag_s.asp) - A straightforward explanation of the strikethrough tag, which I used for the original price.**
+- [W3Schools `<s>` Tag](https://www.w3schools.com/tags/tag_s.asp) - A straightforward explanation of the strikethrough tag, which I used for the original price.
 
 
 
